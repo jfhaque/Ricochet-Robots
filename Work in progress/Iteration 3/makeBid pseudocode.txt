@@ -1,0 +1,39 @@
+make a bid pseudocode:
+
+firstMove = player1
+targetSquare = rand(targetSquares[nextInt])
+int bid = 0
+timer = 100
+
+if userSelect == "Save Game"
+	saveGame()
+	exit()
+else if userSelect == "Reset Game"
+	resetGame()
+else if userSelect == "Exit Game"
+	exit()
+else
+	firstBid = user inputs first bid
+	startTimer()
+	while(timer > 0)
+		secondBid = player2's bid
+		thirdBid = player3's bid
+		fourthBid = player4's bid
+		timer-- 
+	for each player
+		calculate shortest path to target square
+		check shortest path against the bid
+		determine who's bid was most accurate
+		return winner 
+	if winner == player1
+		moveRobotPiece1(targetSquare)
+	else if winner == player2
+		moveRobotPiece2(targetSquare)
+	else if winner == player3
+		moveRobotPiece3(targetSquare)
+	else if winner == player4
+		moveRobotPiece4(targetSquare)
+	else
+		print("This round had no winner")
+	
+		

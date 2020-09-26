@@ -1,0 +1,13 @@
+Move the Robot Pseudocode (For a Simple Board)
+
+Once a winner has been determined from the bidding process...
+
+The system selects the winner's robot, and has a recorded path of where the robot needs to go. 
+
+The system then moves the robot to one square along the path
+
+The system displays the robot in the new square for the user and waits a couple of seconds.
+
+Then the system moves the robot to another square along the path, then displays the robot to the user and waits a couple of seconds. 
+
+This repeats until the robot gets to the target square.

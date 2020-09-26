@@ -1,0 +1,8 @@
+MARKER PLEASE READ:
+-When comparing the class diagram with the running program, not all of the classes in the class diagram
+ will be present in the actual code, the classes will be implemented when they are of use, further
+ into the development
+-GameSettings Class records user input varibles and game configuration
+-The load game button is a dummy button - there is no added functionality yet
+-When the user is prompted to select a board type, this data is recorded in the GameSettings class
+ and is not yet reflected when the board displays 
